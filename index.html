@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#101522"><link rel="manifest" href="manifest.webmanifest">
+<title>WAZARSKY CLOUD PC</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="boot"><div class="boot-logo">W<span>•</span></div><h1>WAZARSKY CLOUD PC</h1><p>Inicializando ambiente...</p><div class="boot-bar"><i></i></div></div>
+<div id="desktop" hidden>
+  <header class="topbar"><div class="brand">W<span>•</span> CLOUD PC</div><div class="top-status"><span id="net">● ONLINE LOCAL</span><span id="clock">--:--</span></div></header>
+  <main class="workspace" id="workspace">
+    <section class="desktop-icons">
+      <button class="desk-icon" data-app="files"><b>📁</b><span>Arquivos</span></button>
+      <button class="desk-icon" data-app="terminal"><b>⌘</b><span>Terminal</span></button>
+      <button class="desk-icon" data-app="browser"><b>🌐</b><span>Navegador</span></button>
+      <button class="desk-icon" data-app="editor"><b>📝</b><span>Editor</span></button>
+      <button class="desk-icon" data-app="about"><b>⚙️</b><span>Sistema</span></button>
+    </section>
+    <div class="welcome"><div class="orb">W</div><h1>Seu espaço digital.</h1><p>Um desktop leve, instalável e adaptado ao Android.</p><small>Protótipo 0.1 · interface local</small></div>
+    <div id="windows"></div>
+  </main>
+  <nav class="taskbar"><button class="start" id="start">⊞</button><span class="task-label">WAZARSKY</span><div class="task-apps" id="taskapps"></div><button class="power" id="power">⏻</button></nav>
+  <div class="start-menu" id="startmenu" hidden><h3>Aplicativos</h3><div class="start-grid">
+    <button data-app="files">📁 Arquivos</button><button data-app="terminal">⌘ Terminal</button><button data-app="browser">🌐 Navegador</button><button data-app="editor">📝 Editor</button><button data-app="about">⚙️ Sistema</button>
+  </div><p>WAZARSKY CLOUD PC · 0.1</p></div>
+</div>
+<script src="app.js"></script>
+</body></html>
